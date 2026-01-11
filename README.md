@@ -1,25 +1,39 @@
-# Prescripto
+🏥Prescripto
+#Doctor Appointment Booking Web Application
 
-# Doctor Appointment Booking Web Application
+Prescripto is a production-grade healthcare orchestration platform designed to streamline the connection between patients and medical professionals. This web application allows patients to book doctor appointments online through a seamless, real-time interface. It features a high-performance frontend for browsing specialized doctors, selecting verified time slots, and processing secure payments.
 
-This web application allows patients to book doctor appointments online. It features a user-friendly interface for browsing doctors, selecting time slots, and making payments. The admin dashboard provides the ability to manage appointments, update schedules, and track patient bookings. Payment gateway integration ensures secure online transactions for appointment bookings.
+The system includes a robust Admin Dashboard that provides centralized control over clinical schedules, appointment tracking, and patient management. By integrating a secure payment gateway and a multi-role authentication system, Prescripto ensures a reliable and professional experience for all stakeholders in the healthcare ecosystem.
 
-# Key Features:
-Patient Booking System: Patients can view a list of available doctors, select an appointment slot, and book an appointment.
+#Key Features
+Patient Booking System: An intuitive interface where patients can filter doctors by specialty, view comprehensive profiles, and book available 30-minute appointment slots.
 
-Admin Dashboard: Admins can manage doctor schedules, track patient appointments, and update the status of bookings.
+Admin Dashboard: A powerful management suite for administrators to onboard new doctors, monitor system-wide appointments, and update booking statuses in real-time.
 
-Payment Gateway Integration: Secure payment processing to complete the appointment booking through integrated payment systems.
+Doctor Dashboard: A specialized view for medical professionals to track their scheduled consultations, manage their availability, and view total earnings.
 
-User Authentication: Both patients and admins can securely log in to the platform.
+Payment Gateway Integration: Secure transaction processing using Stripe (Test Mode) to facilitate instant appointment confirmations.
 
-# Technologies:
-Frontend: React.js, tailwindCss
+User Authentication: Multi-layered security using JWT and Bcrypt to provide distinct access levels for Patients, Doctors, and Administrators.
+
+Cloud Media Management: Integration with Cloudinary for optimized hosting and delivery of high-resolution doctor profile imagery.
+
+#Technologies
+Frontend: React.js, Tailwind CSS
 
 Backend: Node.js, Express.js
 
-Database: MongoDB
+Database: MongoDB Atlas (Cloud)
 
-Payment Gateway: stripe test mode
+Payment Gateway: Stripe (Test Mode)
 
-Authentication: JWT 
+Authentication: JSON Web Tokens (JWT)
+
+Image Hosting: Cloudinary CDN
+
+#Engineering Impact
+Deployment Architecture: Successfully deployed as a monorepo across Netlify (Frontend/Admin) and Render (Backend), overcoming complex CORS and environment synchronization challenges.
+
+Scalability: Implemented an atomic slot-booking logic that prevents race conditions and "double-booking" errors during high-traffic periods.
+
+Persistence: Configured custom redirect rules to handle the React Router lifecycle on static hosting, ensuring zero "404 Not Found" errors on page refresh.
