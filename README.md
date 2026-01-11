@@ -6,6 +6,12 @@ Prescripto is a production-grade healthcare orchestration platform designed to s
 
 The system includes a robust Admin Dashboard that provides centralized control over clinical schedules, appointment tracking, and patient management. By integrating a secure payment gateway and a multi-role authentication system, Prescripto ensures a reliable and professional experience for all stakeholders in the healthcare ecosystem.
 
+🛰️ Live Ecosystem
+
+Patient Hub: prescriipto.netlify.app
+
+Admin Command Center: prescriptionadmin.netlify.app
+
 #Key Features
 
 Patient Booking System: An intuitive interface where patients can filter doctors by specialty, view comprehensive profiles, and book available 30-minute appointment slots.
