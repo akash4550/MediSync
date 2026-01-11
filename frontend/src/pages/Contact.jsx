@@ -28,7 +28,7 @@ const Contact = () => {
           <p>Tel: (000) 000-0000</p>
           <p>Email: greatstackdev@gmail.com</p>
         </div>
-        <b className='text-gray-800'>CAREERS AT MediSync</b>
+        <b className='text-gray-800'>CAREERS AT Prescripto</b>
         <p>Learn more about our teams and job openings.</p>
         <button className='border py-2 cursor-pointer px-4 max-w-[130px] rounded hover:bg-black hover:text-white transition duration-300 ease-in-out'>
           Explore Jobs

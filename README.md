@@ -1,4 +1,4 @@
-# MediSync
+# Prescripto
 
 # Doctor Appointment Booking Web Application
 
